@@ -1,122 +1,59 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore the virtual environment (myenv)
+myenv/
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
+# Ignore database file
 db.sqlite3
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Ignore media and static files (assumes you're serving these separately in production)
+media/
+static/
 
-# Scrapy stuff:
-.scrapy
+# Ignore sensitive settings files
+*.secret_key
 
-# Sphinx documentation
-docs/_build/
+# Ignore local development settings
+local_settings.py
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Ignore log files
+*.log
 
-# pyenv
-.python-version
+# Ignore compiled Python files
+__pycache__/
+*.pyc
 
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-venv/
-ENV/
-env/
-
-# Visual Studio Code
+# Ignore the VS Code settings folder (if you're using Visual Studio Code)
 .vscode/
 
-# Sublime Text
-.sublime-project
-.sublime-workspace
-
-# PyCharm
+# Ignore editor-specific files and directories
 .idea/
-
-# macOS
-.DS_Store
-
-# Thumbnails
-._*
-
-# Files
 *.swp
-*.bak
-*.save
+*.swo
+*~
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg-info/
 
-# KDE directory preferences
-.directory
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.tox/
 
-# IntelliJ IDEA
-out/
-# Django project-specific ignores
+# Ignore local development files
+.env
 
-# Ignore database
-*.sqlite3
-*.sql
+# Ignore compiled Python files
+*.pyc
 
-# Ignore migration files
-**/migrations/*.py
-**/migrations/*.pyc
+# Ignore Django migration files
+**/migrations/
+__pycache__/
 
-# Ignore the Django debug panel's SQL data
-__SQL__.json
-
+# Ignore environment-specific settings files
+.env
+.env.*
