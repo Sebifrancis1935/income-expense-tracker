@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files
+*.swp
+*.bak
+*.save
+
+# KDE directory preferences
+.directory
+
+# IntelliJ IDEA
+out/
+# Django project-specific ignores
+
+# Ignore database
+*.sqlite3
+*.sql
+
+# Ignore migration files
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore the Django debug panel's SQL data
+__SQL__.json
+
