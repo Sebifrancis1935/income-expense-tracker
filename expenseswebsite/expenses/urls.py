@@ -12,6 +12,6 @@ urlpatterns = [
          name="search_expenses"),
     path('expense_category_summary', views.expense_category_summary,
          name="expense_category_summary"),
-    path('stats_ex', views.stats_view,
+    path('stats', views.stats_view,
          name="stats")
 ]

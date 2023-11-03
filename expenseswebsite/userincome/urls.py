@@ -12,6 +12,6 @@ urlpatterns = [
          name="search_income"),
     path('income_category_summary', views.income_category_summary,
          name="income_category_summary"),
-    path('stats_in', views.stats_view,
-         name="stats")
+    path('stats', views.stats_view, name="stats")
+
 ]
